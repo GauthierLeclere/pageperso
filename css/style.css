@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+/* CSS DE MA PAGE */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: orange;
+  background: url(../img/bg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+h1,h2,h3{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+div#container{
+width: 80%;
+margin: 20px auto;
+padding: 20px;
+}
+
+nav, main, footer{
+  padding: 20px;
+  background-color: #fff;
+  margin: 0px 20px;
+}
+
+header{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+header h1{
+  padding: 15px;
+  font-size: 3em;
+  font-weight: bolder;
+  letter-spacing: 20px;
+}
+
+header h1 span{
+  color:  #6D8CA1;
+  font-size: 1.5em;;
+}
+
+
+header h2 a{
+  color: #6D8CA1;
+}
+
+nav{
+  background-color: rgba(9, 29, 44, 0.6);
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 15px;
+}
+
+nav ul li a{
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 5px 15px;
+  color: #6D8CA1;
+}
+
+nav ul li a:hover{
+  border-radius: 5px;
+  background-color: #fff;
+  color: #6D8CA1;
+}
+
+main h3{
+  text-align: center;
+  font-size: 2em;
+  color: #1C2932;
+}
+
+section{
+  margin-top: 0px;
+}
+
+section#profil{
+    text-align: center;
+}
+
+section#profil img{
+  margin: 25px 0px;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+section#profil blockquote{
+  width: 50%;
+  font-style: italic;
+  color: #6D8CA1;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+section#profil blockquote cite{
+  display: block;
+  text-align: right;
+}
+
+section#experience a{
+  font-size: 1.3em;
+  color: #091D2C;
+  text-transform: uppercase;
+}
+
+section#experience ul li{
+  color: #6D8CA1;
+  list-style-type: none;
+}
+
+section#skills table{
+  width: 100%;
+  border-collapse:collapse;
+  border-spacing: 0px;
+  border: 1px solid #6D8CA1;
+
+}
+
+section#skills table thead th{
+  padding: 5px;
+  background-color: #091D2C;
+  color: #fff;
+}
+
+section#skills table tr.top td{
+  text-align: center;
+  color: #fff;
+  background-color: #6D8CA1;
+  border:0px;
+}
+
+section#skills table td{
+  padding: 5px;
+  border: 1px solid #6D8CA1;
+}
+
+section#portfolio img{
+  margin: 10px;
+  border: 5px solid #fff;
+  box-shadow: 1px 1px 10px 1px #cccccc;
+}
+
+section#portfolio img:hover{
+  box-shadow: 1px 1px 10px 5px #6D8CA1;
+
+}
+
+footer{
+  text-align: center;
+  color: #fff;
+  background-color: #091D2C;
+}
+
+footer p{
+  margin: 0px;
+}
+
+footer a{
+  color: #6D8CA1;
+}
+
+footer img{
+  margin-top: 20px;
+  width: 75px;
+  border-radius: 50%;
+}
